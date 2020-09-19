@@ -2,10 +2,6 @@ module.exports = function transform(arr) {
     if(!Array.isArray(arr)){
         throw new Error;
     }
-    // 
-    
-    //idk why 1st al is not working / if u find mistake -> contact with me pls//
-
     let a = [];
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] == '--double-next') {
